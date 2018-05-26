@@ -1,0 +1,6 @@
+[package]
+name = "is-odd"
+version = "1.0.0"
+authors = ["nukeop <nukeop@gumblert.tech>"]
+
+[dependencies]
