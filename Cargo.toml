@@ -2,5 +2,10 @@
 name = "is-odd"
 version = "1.0.0"
 authors = ["nukeop <nukeop@gumblert.tech>"]
+description = "Returns true if the given number is odd."
+repository = "https://github.com/nukeop/is-odd"
+readme = "README.md"
+keywords = ["integer", "even", "odd", "math", "numeric"]
+license = "MIT"
 
 [dependencies]
