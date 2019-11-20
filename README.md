@@ -21,7 +21,7 @@ extern crate is_odd;
 use is_odd::IsOdd;
 
 let _i : i32 = 1;
-println!("{}", _i.is_odd()); // prints false
+println!("{}", _i.is_odd()); // prints true
 ```
 
 ## About
