@@ -1,6 +1,6 @@
 [package]
 name = "is-odd"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["nukeop <nukeop@gumblert.tech>"]
 description = "Returns true if the given number is odd."
 repository = "https://github.com/nukeop/is-odd"

@@ -6,7 +6,7 @@ Specify the dependencty in Cargo.toml:
 
 ```yaml
 [dependencies]
-is-odd = "~1.0.0"
+is-odd = "~1.0.1"
 ```
 
 Fetch it with cargo:
@@ -23,6 +23,9 @@ use is_odd::IsOdd;
 let _i : i32 = 1;
 println!("{}", _i.is_odd()); // prints true
 ```
+
+## Known tradeoffs
+Currently, the library doesn't support floating point numbers.
 
 ## About
 ### License
