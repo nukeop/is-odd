@@ -14,4 +14,4 @@ macro_rules! prim_impl {
     };
 }
 
-prim_impl!(i8 u8 i16 u16 i32 u32 i64 u64 i128 u128);
+prim_impl!(i8 u8 i16 u16 i32 u32 i64 u64 i128 u128 isize usize);
