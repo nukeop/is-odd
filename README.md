@@ -6,7 +6,7 @@ Specify the dependencty in Cargo.toml:
 
 ```yaml
 [dependencies]
-is-odd = "~1.0.1"
+is-odd = "~1.1.0"
 ```
 
 Fetch it with cargo:
