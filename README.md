@@ -4,9 +4,15 @@ Returns true if the given number is odd.
 ## Install
 Specify the dependencty in Cargo.toml:
 
-```yaml
+```toml
 [dependencies]
-is-odd = "~1.1.0"
+is-odd = "1.1.1"
+```
+
+Or:
+
+```bash
+$ cargo add is_odd
 ```
 
 Fetch it with cargo:
@@ -17,17 +23,15 @@ $ cargo build
 ## Usage
 
 ```rust
-extern crate is_odd;
 use is_odd::IsOdd;
 
 let _i : i32 = 1;
 println!("{}", _i.is_odd()); // prints true
 ```
 
-## Known tradeoffs
-Currently, the library doesn't support floating point numbers.
-
 ## About
+Currently, the library support both integer and floating point numbers.
+
 ### License
 Copyright © 2018, [nukeop](https://github.com/nukeop).
 Released under the [MIT License](LICENSE).

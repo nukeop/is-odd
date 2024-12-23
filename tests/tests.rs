@@ -219,4 +219,32 @@ mod tests {
         _i = 10_000_000;
         assert!(!_i.is_odd());
     }
+
+    #[test]
+    fn f32_is_odd() {
+        let mut _i: f32 = 1.0;
+        assert!(_i.is_odd());
+        _i = 7.0;
+        assert!(_i.is_odd());
+        _i = 2.0;
+        assert!(!_i.is_odd());
+        _i = std::f32::consts::PI;
+        assert!(!_i.is_odd());
+        _i = 19.1;
+        assert!(!_i.is_odd());
+    }
+
+    #[test]
+    fn f64_is_odd() {
+        let mut _i: f64 = 1.0;
+        assert!(_i.is_odd());
+        _i = 7.0;
+        assert!(_i.is_odd());
+        _i = 2.0;
+        assert!(!_i.is_odd());
+        _i = std::f64::consts::PI;
+        assert!(!_i.is_odd());
+        _i = 19.1;
+        assert!(!_i.is_odd());
+    }
 }
